@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Build table with Checkbox</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+<script src="index.js"></script>
+
 <body>
-    abc
-    This is home page - Dieu Nguyen
+    <table>
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" onclick="showMessage('Huy')"></td>
+                <td>1</td>
+                <td>Huy</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" onclick="showMessage('Hieu')"></td>
+                <td>2</td>
+                <td>Hieu</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" onclick="showMessage('Tony')"></td>
+                <td>3</td>
+                <td>Tony</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" onclick="showMessage('Tommy')"></td>
+                <td>4</td>
+                <td>Tommy</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" onclick="showMessage('CJ')"></td>
+                <td>5</td>
+                <td>CJ</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
